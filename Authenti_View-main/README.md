@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+<!-- ================= HEADER ================= -->
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=Authenti_View&fontAlign=50&fontAlignY=40&color=gradient&animation=fadeIn"/>
 
-## How can I edit this code?
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Fake+Review+Detection+System;AI+Powered+Authenticity+Analysis;Machine+Learning+%2B+NLP+Solution;Building+Trust+in+Digital+Platforms" />
 
-There are several ways of editing your application.
+</div>
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+# ⭐ Authenti_View
 
-Changes made via Lovable will be committed automatically to this repo.
+Authenti_View is an **AI-powered application** designed to identify whether a review is **genuine or fake** using Machine Learning and Natural Language Processing techniques.
 
-**Use your preferred IDE**
+The goal is to improve:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+✔ Digital trust  
+✔ Consumer decision making  
+✔ Platform credibility  
+✔ Fraud detection in review ecosystems  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🎯 Purpose of This Project
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Authenti_View aims to provide an automated solution that:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Detects suspicious reviews
+- Prevents manipulation of ratings
+- Supports transparent digital marketplaces
+- Helps users make reliable purchase decisions
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📂 System Overview
 
-**Edit a file directly in GitHub**
+<details>
+<summary><b>🧹 Text Preprocessing</b></summary>
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Review cleaning  
+- Stopword removal  
+- Tokenization  
+- Normalization  
 
-**Use GitHub Codespaces**
+</details>
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+<details>
+<summary><b>📊 Feature Extraction</b></summary>
 
-This project is built with:
+- Text vectorization  
+- Pattern recognition  
+- NLP-based transformation  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+</details>
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+<details>
+<summary><b>🧠 Machine Learning Model</b></summary>
 
-## Can I connect a custom domain to my Lovable project?
+- Model training using labeled datasets  
+- Authenticity classification  
+- Prediction optimization  
 
-Yes, you can!
+</details>
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<details>
+<summary><b>💻 User Interface</b></summary>
+
+- Simple review input system  
+- Real-time authenticity result  
+- Clean and responsive layout  
+
+</details>
+
+---
+
+## ✨ Features
+
+- Real vs Fake review classification  
+- Machine Learning prediction model  
+- Fast processing response  
+- User friendly interface  
+- Scalable architecture  
+- NLP-based review analysis  
+
+---
+
+## ⚙ Working Pipeline
+
+```mermaid
+flowchart LR
+    A[User Inputs Review] --> B[Text Cleaning]
+    B --> C[Feature Extraction]
+    C --> D[Machine Learning Model]
+    D --> E[Authenticity Prediction]
